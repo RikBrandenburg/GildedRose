@@ -11,8 +11,6 @@ class SulfurasItem extends ItemWrapper
     /**
      * Update the Sulfuras item.
      * This item does not change in quality or sellIn value, so this method does nothing.
-     *
-     * @return void
      */
     public function update(): void
     {

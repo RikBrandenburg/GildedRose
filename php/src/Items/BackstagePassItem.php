@@ -11,8 +11,6 @@ class BackstagePassItem extends ItemWrapper
     /**
      * Update the Backstage Pass item.
      * The quality increases as the sellIn value decreases, with special rules for different ranges.
-     *
-     * @return void
      */
     public function update(): void
     {

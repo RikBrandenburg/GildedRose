@@ -10,8 +10,6 @@ class ConjuredItem extends ItemWrapper
 {
     /**
      * Update the Conjured item by decreasing its sellIn value and quality.
-     * 
-     * @return void
      */
     public function update(): void
     {

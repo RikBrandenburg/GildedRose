@@ -7,8 +7,8 @@ namespace GildedRose;
 use GildedRose\Items\AgedBrieItem;
 use GildedRose\Items\BackstagePassItem;
 use GildedRose\Items\ConjuredItem;
-use GildedRose\Items\SulfurasItem;
 use GildedRose\Items\NormalItem;
+use GildedRose\Items\SulfurasItem;
 
 class ItemFactory
 {
@@ -21,7 +21,7 @@ class ItemFactory
 
     /**
      * Create an ItemWrapper instance based on the item type.
-     * 
+     *
      * @param Item $item The item to wrap.
      * @return ItemWrapper The appropriate ItemWrapper instance.
      */

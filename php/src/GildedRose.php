@@ -11,12 +11,11 @@ final class GildedRose
      */
     public function __construct(
         private array $items
-    ) {}
+    ) {
+    }
 
     /**
      * Update the quality of all items in the Gilded Rose inventory.
-     * 
-     * @return void
      */
     public function updateQuality(): void
     {

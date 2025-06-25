@@ -11,8 +11,6 @@ class NormalItem extends ItemWrapper
     /**
      * Update the item by decreasing its sellIn value and quality.
      * If the sellIn is less than 0, the quality decreases by an additional 1.
-     * 
-     * @return void
      */
     public function update(): void
     {

@@ -8,20 +8,16 @@ abstract class ItemWrapper
 {
     public function __construct(
         protected Item $item
-    ) {}
+    ) {
+    }
 
     /**
      * Update the item quality and sellIn value.
-     * 
-     * @return void
      */
     abstract public function update(): void;
 
     /**
      * Increase the quality of the item by a specified amount, up to a maximum of 50.
-     * 
-     * @param int $amount
-     * @return void
      */
     protected function increaseQuality(int $amount = 1): void
     {
@@ -30,9 +26,6 @@ abstract class ItemWrapper
 
     /**
      * Decrease the quality of the item by a specified amount, down to a minimum of 0.
-     * 
-     * @param int $amount
-     * @return void
      */
     protected function decreaseQuality(int $amount = 1): void
     {
@@ -41,11 +34,9 @@ abstract class ItemWrapper
 
     /**
      * Decrease the sellIn value of the item by 1.
-     * 
-     * @return void
      */
     protected function decreaseSellIn(): void
     {
-        $this->item->sellIn -= 1;
+        --$this->item->sellIn;
     }
 }

@@ -10,7 +10,8 @@ class Item implements \Stringable
         public string $name,
         public int $sellIn,
         public int $quality
-    ) {}
+    ) {
+    }
 
     public function __toString(): string
     {
