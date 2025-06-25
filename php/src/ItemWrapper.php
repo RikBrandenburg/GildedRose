@@ -10,6 +10,11 @@ abstract class ItemWrapper
         protected Item $item
     ) {}
 
+    /**
+     * Update the item quality and sellIn value.
+     * 
+     * @return void
+     */
     abstract public function update(): void;
 
     /**
