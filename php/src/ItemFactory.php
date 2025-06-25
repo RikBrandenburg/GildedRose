@@ -4,6 +4,12 @@ declare(strict_types=1);
 
 namespace GildedRose;
 
+use GildedRose\Items\AgedBrieItem;
+use GildedRose\Items\BackstagePassItem;
+use GildedRose\Items\ConjuredItem;
+use GildedRose\Items\SulfurasItem;
+use GildedRose\Items\NormalItem;
+
 class ItemFactory
 {
     // Mappings of item names to their respective classes which allows for larger scaling purposes.

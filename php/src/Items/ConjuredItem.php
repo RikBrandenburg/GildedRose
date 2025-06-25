@@ -2,7 +2,9 @@
 
 declare(strict_types=1);
 
-namespace GildedRose;
+namespace GildedRose\Items;
+
+use GildedRose\ItemWrapper;
 
 class ConjuredItem extends ItemWrapper
 {
